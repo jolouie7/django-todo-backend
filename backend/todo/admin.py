@@ -9,8 +9,3 @@ class TodoAdmin(admin.ModelAdmin):  # add this
 
 # Register your models here.
 admin.site.register(Todo, TodoAdmin)  # add this
-
-
-'''
-Todo: Set up Django as an API
-'''
